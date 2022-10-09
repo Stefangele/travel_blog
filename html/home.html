@@ -23,7 +23,7 @@
           <li id="linkToAfrica"><a href="#toAfrica">Africa</a></li>
           <li id="linkToEurope"><a href="#toEurope">Europe</a></li>
           <li id="linkToAmerica"><a href="#toAmerica">America</a></li>
-          <li>Add Sunset</li>
+          <li> <a href="#listProposedSunsets"></a> Add Sunset</li>
         </ul>
       </nav>
       <h1 id="headerVideoHeadline">The Sunset Travel Blog</h1>
@@ -78,10 +78,10 @@
           </div>
       </div>
     </div>
-    <div class="homeBanner">
+    <a href="#listProposedSunsets" style="color:inherit; text-decoration: inherit"><div class="homeBanner">
       <h2>Show me your favorite</h2>
       <h2>SUNSET SPOTS</h2>
-    </div>
+    </div></a>
     <div class="imageSliderFlexContainer">
       <div class="imageSlider">
         <h2>The most beautiful sunsets in the world</h2>
@@ -118,75 +118,47 @@
     <div class="submitFormHome">
       <section class="get-in-touch">
         <h1 class="title">Show me new Sunsets</h1>
-        <form class="contact-form row">
+        <div class="proposedSunsetsBox"><h2>Places I have to check out:</h2> <ul id="listProposedSunsets"></ul>
+        </div>
+        <div class="contact-form row">
           <div class="form-field col x-50">
-            <input id="name" class="input-text js-input" type="text" required />
-            <label class="label" for="city">City/Place</label>
+            <input id="proposedCity" class="input-text" type="text" required/>
+            <label class="label" for="proposedCity">City/Place</label>
           </div>
           <div class="form-field col x-50">
             <input
-              id="email"
-              class="input-text js-input"
+              id="proposedCountry"
+              class="input-text"
               type="text"
               required
             />
-            <label class="label" for="country">Country</label>
-          </div>
-          <div class="form-field col x-50">
-            <input
-              id="email"
-              class="input-text js-input"
-              type="text"
-              required
-            />
-            <label class="label" for="continent">Continent</label>
+            <label class="label" for="proposedCountry">Country</label>
           </div>
           <div class="form-field col x-100">
             <input
-              id="message"
-              class="input-text js-input"
+              id="proposedFavoriteSpot"
+              class="input-text"
               type="text"
               required
             />
-            <label class="label" for="Your favorit spot"
+            <label class="label" for="proposedFavoriteSpot"
               >Your favorit spot</label
             >
           </div>
+          
           <div class="form-field col x-100">
             <input
-              id="message"
-              class="input-text js-input"
+              id="proposedTravelDate"
+              class="input-text"
               type="text"
               required
             />
-            <label class="label" for="Upload your Picture"
-              >Upload your picture - with URL</label
-            >
-          </div>
-          <div class="form-field col x-100">
-            <input
-              id="message"
-              class="input-text js-input"
-              type="text"
-              required
-            />
-            <label class="label" for="Travel description"
-              >Your travel description</label
-            >
-          </div>
-          <div class="form-field col x-100">
-            <input
-              id="message"
-              class="input-text js-input"
-              type="text"
-              required
-            />
-            <label class="label" for="Travel Date">Travel Date</label>
+            <label class="label" for="proposedTravelDate">Best Travel Date</label>
           </div>
           <div class="form-field col x-100 align-center">
-            <input class="submit-btn" type="submit" value="Submit" />
+            <input id="submitNewSunset" class="submit-btn" type="submit" value="Submit" />
           </div>
-        </form>
+        </div>
       </section>
     </div>
     <footer class="footer-distributed">
@@ -210,5 +182,6 @@
     <script src="/javascript/create_country_card.js"></script>
     <script src="/javascript/create_destination_detail_card.js"></script>
     <!-- <script src="/javascript/fetch_weather_information.js"></script> -->
+    <script src="/javascript/new_sunset_entries.js"></script>
   </body>
 </html>
