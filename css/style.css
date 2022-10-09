@@ -488,12 +488,7 @@ li {
   }
 }
 
-.submitFormHome {
-  width: 100%;
-  height: 850px;
-  background-color: rgb(163, 87, 9);
-  margin-top: -2%;
-}
+/* CSS for Footer */
 
 .footer-distributed {
   background-color: #292c2f;
@@ -509,7 +504,6 @@ li {
   font-size: 14px;
   margin: 0;
 }
-/* Footer links */
 
 .footer-distributed p.footer-links {
   font-size: 18px;
@@ -570,8 +564,6 @@ li {
   text-decoration: underline;
 }
 
-/* Media Queries */
-
 @media (max-width: 600px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-right {
@@ -584,6 +576,36 @@ li {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+}
+
+/* CSS for submit form */
+
+.submitFormHome {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(163, 87, 9);
+  overflow-x: auto;
+}
+
+.proposedSunsetsBox {
+  border-style: dashed;
+  border-color: rgb(240, 227, 202);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.proposedSunsetsBox ul li {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.proposedSunsetsBox ul li::before {
+  content: attr(data-icon);
+}
+
+.buttonListProposedSunsets {
+  font-size: 25px;
+  width: 50px;
 }
 
 .row {
@@ -624,8 +646,8 @@ li {
   letter-spacing: 3px;
   font-size: 36px;
   line-height: 48px;
-  padding-top: 70px;
-  padding-bottom: 48px;
+  padding-top: 40px;
+  padding-bottom: 18px;
 }
 
 .contact-form .form-field {
@@ -663,7 +685,7 @@ li {
 .contact-form .submit-btn {
   display: inline-block;
   background-color: rgb(27, 26, 23);
-  color: #fff;
+  color: rgb(240, 227, 202);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
