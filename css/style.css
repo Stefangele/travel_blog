@@ -1,0 +1,691 @@
+/* Colors
+beige: rgb(240, 227, 202)
+orange: rgb(255, 131, 3)
+brown: rgb(163, 87, 9)
+black: rgb(27, 26, 23)
+
+*/
+
+/* General CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: auto;
+  max-height: auto;
+  background-color: rgb(240, 227, 202);
+  color: rgb(27, 26, 23);
+  font-family: Montserrat;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(240, 227, 202);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(27, 26, 23);
+}
+
+/* CSS for Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navigation-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(255, 131, 3);
+  height: 10vh;
+  width: 98vw;
+  align-items: center;
+  opacity: 0.85;
+}
+
+li {
+  list-style-type: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navigation-flex img {
+  width: 70px;
+  height: 70px;
+}
+
+.navigation-flex a {
+  color: rgb(27, 26, 23);
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 rgb(27, 26, 23);
+  padding: 0 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navigation-flex a:hover {
+  color: rgb(240, 227, 202);
+  box-shadow: inset 200px 0 0 0 rgb(163, 87, 9);
+}
+
+.linkExceptionNavbar a {
+  content: "";
+}
+
+/* CSS for Header Video */
+
+#headerVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(75%);
+  z-index: -1;
+}
+
+#headerVideoHeadline {
+  color: rgb(240, 227, 202);
+  font-size: 120px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+/* CSS for Content Slider */
+
+.contentSlider {
+  padding-top: 12%;
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+
+.contentSliderWorldMap {
+  width: 33.3%;
+  height: 700px;
+  background-color: rgb(240, 227, 202);
+  background-image: url("https://bestanimations.com/media/earth/726892854earth-spinning-rotating-animation-14.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: center;
+}
+
+.contentSliderWorldMap li {
+  list-style-type: none;
+  padding-top: 25px;
+}
+
+.contentSliderContentList {
+  width: 33.3%;
+  height: 700px;
+  background-color: rgb(255, 131, 3);
+  text-align: center;
+  overflow-y: auto;
+}
+
+.detailSunsetLocation {
+  width: 33.3%;
+  height: 700px;
+  background-color: rgb(163, 87, 9);
+  color: rgb(240, 227, 202);
+  overflow-y: auto;
+}
+
+/* button styles */
+
+.buttonAnimationChooseContinent {
+  width: 170px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(255, 131, 3);
+  cursor: pointer;
+  box-shadow: 5px 5px 0 0;
+  transition: 0.3s;
+  min-height: 20px;
+}
+.buttonAnimationChooseContinent a {
+  position: absolute;
+  text-decoration: none;
+  color: rgb(27, 26, 23);
+}
+
+.buttonAnimationChooseContinent:hover {
+  box-shadow: -5px -5px 0 0;
+  transform: scale(0.9);
+}
+
+/* loading animation country list*/
+
+.globe-loader {
+  position: relative;
+  color: rgb(240, 227, 202);
+  margin: 5em;
+}
+
+.globe-loader > i {
+  display: block;
+  position: absolute;
+  font-size: 2.2em;
+  height: 50%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(0deg);
+  transform-origin: center bottom;
+  animation: loader-spin 3s infinite ease-in-out;
+}
+.globe-loader > i::before {
+  position: relative;
+  top: -1.25em;
+}
+
+.fa-globe:before {
+  font-size: 10em;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(1turn);
+  }
+}
+
+/* Country Cards CSS */
+
+.card {
+  display: block;
+  width: 80%;
+  background-color: rgb(240, 227, 202);
+  box-shadow: 10px 10px 10px rgb(27, 26, 23);
+  padding: 20px;
+  margin: 30px;
+  border-bottom: 25px solid rgb(163, 87, 9);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid rgb(163, 87, 9);
+}
+
+.card img {
+  height: 25%;
+  width: 25%;
+  border: 1px solid rgb(27, 26, 23);
+  border-radius: 4px;
+}
+
+.card th,
+.card td {
+  padding: 5px 10px;
+}
+
+.card th {
+  text-align: left;
+}
+
+/* Country Detail Cards CSS */
+
+.cardDetailSunsetLocation {
+  display: block;
+  color: rgb(27, 26, 23);
+  width: 88%;
+  background-color: rgb(240, 227, 202);
+  box-shadow: 10px 10px 10px rgb(27, 26, 23);
+  padding: 20px;
+  margin: 30px;
+  border-bottom: 25px solid rgb(255, 131, 3);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid rgb(255, 131, 3);
+}
+
+.cardDetailSunsetLocation h2 {
+  text-align: center;
+  margin-top: -7px;
+}
+
+.cardDetailSunsetLocation img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 7px solid #ddd;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  object-fit: cover;
+  transform: rotate(-6deg);
+  margin-bottom: 20px;
+}
+
+.cardDetailSunsetLocation th,
+.cardDetailSunsetLocation td {
+  padding: 5px 10px;
+}
+
+.cardDetailSunsetLocation th {
+  text-align: left;
+}
+
+.styleCardDetailSunsetLocationWeatherInfo {
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(163, 87, 9);
+}
+
+/* loading animation detail card */
+
+.sunAnimationFlexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 125px;
+}
+
+.sunAnimationFlexContainer h2 {
+  text-align: center;
+}
+
+.sun {
+  position: relative;
+  padding: 100px 100px 100px 100px;
+  top: 50%;
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(to top, #fb6753 0%, #fc8b53 50%, #fdd55a 100%);
+  background-size: 200% 200%;
+  border-radius: 100%;
+  animation: 10s rise infinite;
+}
+
+@keyframes rise {
+  0% {
+    top: -100px;
+    background-position: 50% 0%;
+  }
+  50% {
+    top: 0;
+    background-position: 50% 100%;
+  }
+  100% {
+    top: -100px;
+    background-position: 50% 0%;
+  }
+}
+
+/* CSS for Banner */
+
+.homeBanner {
+  padding-top: 9%;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(163, 87, 9);
+  background-image: url("/data/pictures/home_banner_prallax.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: rgb(240, 227, 202);
+  text-shadow: 0 0 3px rgb(27, 26, 23), 0 0 5px rgb(255, 131, 3);
+  font-weight: bold;
+  font-size: large;
+}
+
+/* CSS for image Slider */
+
+.imageSliderFlexContainer {
+  display: flex;
+}
+
+.imageSlider {
+  width: 70%;
+  height: 600px;
+  background-color: rgb(240, 227, 202);
+  align-self: center;
+}
+
+.imageSlider h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imageSlider img {
+  padding-top: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.slideshowContainer {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.imageSliderInfoBoxAboutMe {
+  background-color: rgb(255, 131, 3);
+  width: 30%;
+  text-align: end;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.imageSliderInfoBoxAboutMe h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  box-shadow: rgba(27, 26, 23, 0.4) 5px 5px, rgba(27, 26, 23, 0.3) 10px 10px,
+    rgba(27, 26, 23, 0.2) 15px 15px, rgba(27, 26, 23, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  margin-bottom: 28px;
+}
+
+.imageSliderInfoBoxAboutMe img {
+  border: 2px solid #ddd;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  object-fit: cover;
+  width: 90%;
+  height: 40vh;
+  padding-top: 0%;
+  transform: rotate(10deg);
+  margin-top: 20px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(240, 227, 202);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgb(163, 87, 9);
+}
+
+.textImageSlider {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(163, 87, 9);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: rgb(27, 26, 23);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.submitFormHome {
+  width: 100%;
+  height: 850px;
+  background-color: rgb(163, 87, 9);
+  margin-top: -2%;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
+}
+
+.footer-distributed .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+.row {
+  margin: -20px 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row .col {
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
+}
+.row .col.x-50 {
+  width: 50%;
+}
+.row .col.x-100 {
+  width: 100%;
+}
+
+.content-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.get-in-touch {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 36px;
+  line-height: 48px;
+  padding-top: 70px;
+  padding-bottom: 48px;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: rgb(27, 26, 23);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: rgb(27, 26, 23);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+}
+.note .link {
+  color: rgb(27, 26, 23);
+  text-decoration: none;
+}
+.note .link:hover {
+  text-decoration: underline;
+}

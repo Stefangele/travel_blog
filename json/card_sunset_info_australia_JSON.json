@@ -1,0 +1,21 @@
+[
+  {
+    "continent": "Australia",
+    "country": "Australia",
+    "city": "Sydney",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg"
+  },
+
+  {
+    "continent": "Australia",
+    "country": "Fiji",
+    "city": "Suva",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/fj.svg"
+  },
+  {
+    "continent": "Australia",
+    "country": "New Zealand",
+    "city": "Wellington",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/nz.svg"
+  }
+]

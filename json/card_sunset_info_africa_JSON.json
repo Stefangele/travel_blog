@@ -1,0 +1,27 @@
+[
+  {
+    "continent": "Africa",
+    "country": "Egypt",
+    "city": "Gizeh",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/eg.svg"
+  },
+
+  {
+    "continent": "Africa",
+    "country": "South Africa",
+    "city": "Table Mountain",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/za.svg"
+  },
+  {
+    "continent": "Africa",
+    "country": "Zimbabwe",
+    "city": "Hwange National Parc",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/zw.svg"
+  },
+  {
+    "continent": "Africa",
+    "country": "Tunesia",
+    "city": "Tunis",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/tn.svg"
+  }
+]

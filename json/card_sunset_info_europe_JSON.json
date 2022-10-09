@@ -1,0 +1,48 @@
+[
+  {
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Hamburg",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image8.jpg",
+    "description": "Simply wonderful. Visit as fast as possible. Sunsets around Alster or Elbe are always great!",
+    "traveldate": "20.06.21 - 25.06.21"
+  },
+
+  {
+    "continent": "Europe",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image14.jpg",
+    "description": "This one bridge in Lisbon almost looks like the one in San Francisco. Stunning sunset there!",
+    "traveldate": "15.07.20 - 25.07.20"
+  },
+  {
+    "continent": "Europe",
+    "country": "Greece",
+    "city": "Crete",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/gr.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image12.jpg",
+    "description": "Not only does the ouzo tast good but the sun always sets beautifully - especially on the west coast.",
+    "traveldate": "24.09.17 - 03.10.17"
+  },
+  {
+    "continent": "Europe",
+    "country": "Denmark",
+    "city": "Kopenhagen",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/dk.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image17.jpg",
+    "description": "Go there in the spring or autumn. The sky is much brighter and cleaner than in summer. In the winter there is almost no sun.",
+    "traveldate": "02.05.18 - 06.05.18"
+  },
+  {
+    "continent": "Europe",
+    "country": "Spain",
+    "city": "Mallorca",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image28.jpg",
+    "description": "Hike up the mountains on Mallorca and watch the magnificent sunsets there.",
+    "traveldate": "13.08.19 - 23.08.19"
+  }
+]

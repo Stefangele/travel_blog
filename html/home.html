@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunset Travel Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:500"
+      type="text/css"
+    />
+  </head>
+  <script src="https://use.fontawesome.com/fafa67e352.js"></script>
+  <body>
+    <div>
+      <nav class="navbar">
+        <ul class="navigation-flex">
+          <li><a style="transition:none; box-shadow: none;" href="#"><img src="/data/logo/sunset-svgrepo-com.svg" alt="HOME"></a></li>
+          <li id="linkToAsia"><a  href="#toAsia">Asia</a></li>
+          <li id="linkToAustralia"><a href="#toAustralia">Australia</a></li>
+          <li id="linkToAfrica"><a href="#toAfrica">Africa</a></li>
+          <li id="linkToEurope"><a href="#toEurope">Europe</a></li>
+          <li id="linkToAmerica"><a href="#toAmerica">America</a></li>
+          <li>Add Sunset</li>
+        </ul>
+      </nav>
+      <h1 id="headerVideoHeadline">The Sunset Travel Blog</h1>
+      <video autoplay muted loop id="headerVideo">
+        <source
+          src="/data/videos/video_sunset_home_header.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="contentSlider">
+      <div class="contentSliderWorldMap">
+        <h2>Choose your continent</h2>
+        <ul">
+          <li>
+            <button class="buttonAnimationChooseContinent" id="Asia">Asia</button>
+          </li>
+          <li>
+            <button class="buttonAnimationChooseContinent" id="Australia">Australia</button>
+          </li>
+          <li>
+            <button class="buttonAnimationChooseContinent" id="Africa">Africa</button>
+          </li>
+          <li>
+            <button class="buttonAnimationChooseContinent" id="Europe">Europe</button>
+          </li>
+          <li>
+            <button class="buttonAnimationChooseContinent" id="America">America</button>
+          </li>
+        </ul>
+      </div>
+      <div class="contentSliderContentList">
+        <h2>
+          <span id="headlineSunsetsinContinent"></span>
+          <span id="toAsia"></span>
+          <span id="toAustralia"></span>
+          <span id="toAfrica"></span>
+          <span id="toEurope"></span>
+          <span id="toAmerica"></span>
+        </h2>
+        <ul id="country_list">
+          <div class="globe-loader fa fa-globe">
+            <i class="fa fa-paper-plane"></i>
+          </div>
+          <h2>Please choose your continent first</h2>
+        </ul>
+      </div>
+      <div class="detailSunsetLocation" id="detailSunsetLocationCard">
+          <div class= "sunAnimationFlexContainer">
+            <div class="sun"></div>
+            <div><H2>The sun is setting - but first choose a continent and a location</H2></div>
+          </div>
+      </div>
+    </div>
+    <div class="homeBanner">
+      <h2>Show me your favorite</h2>
+      <h2>SUNSET SPOTS</h2>
+    </div>
+    <div class="imageSliderFlexContainer">
+      <div class="imageSlider">
+        <h2>The most beautiful sunsets in the world</h2>
+        <div class="slideshowContainer">
+          <div class="pictureInSlider fade">
+            <img
+              id="slideshowImage"
+              src="/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image1.JPG"
+            />
+            <div class="textImageSlider" id="slideDescription">
+              New York, USA
+            </div>
+          </div>
+          <a class="prev" id="buttonPrev">&#10094;</a>
+          <a class="next" id="buttonNext">&#10095;</a>
+        </div>
+        <script src="/javascript/slideshow_home.js"></script>
+      </div>
+      <div class="imageSliderInfoBoxAboutMe">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet.
+        </p>
+        <img
+          src="/data/pictures/about_me_stefan_angele_selfie.jpeg"
+          alt="Stefan Angele"
+        />
+      </div>
+    </div>
+    <div class="submitFormHome">
+      <section class="get-in-touch">
+        <h1 class="title">Show me new Sunsets</h1>
+        <form class="contact-form row">
+          <div class="form-field col x-50">
+            <input id="name" class="input-text js-input" type="text" required />
+            <label class="label" for="city">City/Place</label>
+          </div>
+          <div class="form-field col x-50">
+            <input
+              id="email"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="country">Country</label>
+          </div>
+          <div class="form-field col x-50">
+            <input
+              id="email"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="continent">Continent</label>
+          </div>
+          <div class="form-field col x-100">
+            <input
+              id="message"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="Your favorit spot"
+              >Your favorit spot</label
+            >
+          </div>
+          <div class="form-field col x-100">
+            <input
+              id="message"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="Upload your Picture"
+              >Upload your picture - with URL</label
+            >
+          </div>
+          <div class="form-field col x-100">
+            <input
+              id="message"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="Travel description"
+              >Your travel description</label
+            >
+          </div>
+          <div class="form-field col x-100">
+            <input
+              id="message"
+              class="input-text js-input"
+              type="text"
+              required
+            />
+            <label class="label" for="Travel Date">Travel Date</label>
+          </div>
+          <div class="form-field col x-100 align-center">
+            <input class="submit-btn" type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="https://www.facebook.com/angelestf/"><i class="fa fa-facebook"></i></a>
+        <a href="https://mobile.twitter.com/stefanang"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/stefan_gele/?hl=de"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/Stefangele/"><i class="fa fa-github"></i></a>
+      </div>
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#">Home</a>
+          <a href="#">About Me</a>
+          <a href="#">Imprint</a>
+          <a href="#">Data Policy</a>
+        </p>
+        <p>Stefan Angele &copy; 2022</p>
+      </div>
+    </footer>
+    <script src="/javascript/change_headline_continents.js"></script>
+    <script src="/javascript/create_country_card.js"></script>
+    <script src="/javascript/create_destination_detail_card.js"></script>
+    <!-- <script src="/javascript/fetch_weather_information.js"></script> -->
+  </body>
+</html>

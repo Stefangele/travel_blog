@@ -1,0 +1,27 @@
+[
+  {
+    "continent": "Asia",
+    "country": "Thailand",
+    "city": "Phuket",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg"
+  },
+
+  {
+    "continent": "Asia",
+    "country": "Malaysia",
+    "city": "Langkawi",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/my.svg"
+  },
+  {
+    "continent": "Asia",
+    "country": "Indonesia",
+    "city": "Bali",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/id.svg"
+  },
+  {
+    "continent": "Asia",
+    "country": "Thailand",
+    "city": "Kho Phangan",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg"
+  }
+]

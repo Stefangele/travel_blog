@@ -1,0 +1,27 @@
+[
+  {
+    "continent": "America",
+    "country": "USA",
+    "city": "Grand Canyon",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg"
+  },
+
+  {
+    "continent": "America",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ar.svg"
+  },
+  {
+    "continent": "America",
+    "country": "Mexico",
+    "city": "Tulum",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/mx.svg"
+  },
+  {
+    "continent": "America",
+    "country": "Canada",
+    "city": "Rocky Mountains",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg"
+  }
+]
