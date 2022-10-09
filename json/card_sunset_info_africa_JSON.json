@@ -3,25 +3,37 @@
     "continent": "Africa",
     "country": "Egypt",
     "city": "Gizeh",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/eg.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/eg.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image23.jpg",
+    "description": "Sunset with 4.000 year old stones is something you can only experience here.",
+    "traveldate": "15.07.10 - 29.07.10"
   },
 
   {
     "continent": "Africa",
     "country": "South Africa",
     "city": "Table Mountain",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/za.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/za.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image24.jpg",
+    "description": "The climb is exhausting but the view makes up for it. I promise!",
+    "traveldate": "13.09.09 - 30.09.09"
   },
   {
     "continent": "Africa",
     "country": "Zimbabwe",
     "city": "Hwange National Parc",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/zw.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/zw.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image29.jpg",
+    "description": "Besides the beautiful sunset the animals of the bush get actice during sunset so you have a very special adventure.",
+    "traveldate": "21.12.08 - 30.12.08"
   },
   {
     "continent": "Africa",
     "country": "Tunesia",
     "city": "Tunis",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/tn.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/tn.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image27.jpg",
+    "description": "Maybe a spot that not many people are aware of. But the view from old town on the Mediterreanen Sea is stunning",
+    "traveldate": "13.03.07 - 27.03.07"
   }
 ]

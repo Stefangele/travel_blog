@@ -3,25 +3,37 @@
     "continent": "Asia",
     "country": "Thailand",
     "city": "Phuket",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image9.jpg",
+    "description": "So nice - but many prostitues. Go all the way down to the south of the island for the best spots.",
+    "traveldate": "28.12.21 - 25.01.22"
   },
 
   {
     "continent": "Asia",
     "country": "Malaysia",
     "city": "Langkawi",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/my.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/my.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image10.jpg",
+    "description": "There are remote beaches on the north-west you should go. No people, great scenery and the sun sets perfecly in the ocean.",
+    "traveldate": "11.04.14 - 30.04.14"
   },
   {
     "continent": "Asia",
     "country": "Indonesia",
     "city": "Bali",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/id.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/id.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image11.jpg",
+    "description": "Always worth a trip. The beaches in the south are much better than in the north. A really beautiful sunset can be seen from the volcano.",
+    "traveldate": "03.01.15 - 21.01.15"
   },
   {
     "continent": "Asia",
     "country": "Thailand",
     "city": "Kho Phangan",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/th.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image13.jpg",
+    "description": "More than party. Look out for the low tide than the sun sets perfectly in the west.",
+    "traveldate": "02.02.12 - 30.02.12"
   }
 ]

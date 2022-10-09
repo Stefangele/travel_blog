@@ -3,25 +3,37 @@
     "continent": "America",
     "country": "USA",
     "city": "Grand Canyon",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image19.jpg",
+    "description": "No words needed. The width is almost not to get your head around. Come there in autumn for clear skies.",
+    "traveldate": "21.10.14 - 15.11.14"
   },
 
   {
     "continent": "America",
     "country": "Argentina",
     "city": "Buenos Aires",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/ar.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ar.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image20.jpg",
+    "description": "Go there a nerd-friend of mine said!",
+    "traveldate": "27.02.15 - 15.03.15"
   },
   {
     "continent": "America",
     "country": "Mexico",
     "city": "Tulum",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/mx.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/mx.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image21.jpg",
+    "description": "More than party. The sunsets on the beach are amazing. Sometimes you can even spot whales!",
+    "traveldate": "31.07.17 - 20.08.17"
   },
   {
     "continent": "America",
     "country": "Canada",
     "city": "Rocky Mountains",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image22.jpg",
+    "description": "No matter where you are in the Rockies you should climb as high as you can for amazing views.",
+    "traveldate": "11.07.18 - 31.07.18"
   }
 ]

@@ -3,19 +3,28 @@
     "continent": "Australia",
     "country": "Australia",
     "city": "Sydney",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image15.jpg",
+    "description": "The view with the opera - unforgetable",
+    "traveldate": "31.05.11 - 15.06.11"
   },
 
   {
     "continent": "Australia",
     "country": "Fiji",
     "city": "Suva",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/fj.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/fj.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image16.jpg",
+    "description": "If you can get on a boat - do it!",
+    "traveldate": "20.04.12 - 25.05.12"
   },
   {
     "continent": "Australia",
     "country": "New Zealand",
     "city": "Wellington",
-    "flag": "https://flagicons.lipis.dev/flags/4x3/nz.svg"
+    "flag": "https://flagicons.lipis.dev/flags/4x3/nz.svg",
+    "image": "/data/pictures/slideshow_home/wetransfer_img_0196-jpg_2022-10-06_1004/image18.jpg",
+    "description": "The coast is actually not that nice. You should climb the mountains instead",
+    "traveldate": "02.11.13 - 25.11.13"
   }
 ]
