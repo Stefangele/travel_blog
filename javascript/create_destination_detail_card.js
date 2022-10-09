@@ -35,7 +35,6 @@ function fillDetailList() {
   let detailSunsetLocationCard = document.getElementById(
     "detailSunsetLocationCard"
   );
-  //   detailSunsetLocationCard = "";
   for (let i = 0; i < travelLocationArray.length; i++) {
     const output = createDetailCard(travelLocationArray[i]);
     detailSunsetLocationCard.innerHTML += output;
@@ -43,21 +42,25 @@ function fillDetailList() {
   }
 }
 
-let cardDetailSunsetLocationWeatherInfo = document.getElementById(
-  "cardDetailSunsetLocationWeatherInfo"
-);
+function cleanDetailList() {
+  detailSunsetLocationCard.innerHTML = "";
+}
 
-fetch("/json/card_sunset_info_europe_JSON.json")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (result) {
-    travelLocationArray = result;
-    fillDetailList();
-  })
-  .catch(function (error) {
-    alert("Ooops something didn't work out - blame the weather!");
-  });
+// let cardDetailSunsetLocationWeatherInfo = document.getElementById(
+//   "cardDetailSunsetLocationWeatherInfo"
+// );
+
+// fetch("/json/card_sunset_info_europe_JSON.json")
+//   .then(function (response) {
+//     return response.json();
+//   })
+//   .then(function (result) {
+//     travelLocationArray = result;
+//     fillDetailList();
+//   })
+//   .catch(function (error) {
+//     alert("Ooops something didn't work out - blame the weather!");
+//   });
 
 function fetchWeather(city) {
   fetch(
@@ -72,11 +75,11 @@ function fetchWeather(city) {
       //   weatherIcon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
       const cardDetailSunsetLocationWeatherInfo = document.getElementById(
-        `#cardDetailSunsetLocationWeatherInfo-${travelLocation.city}`
+        `cardDetailSunsetLocationWeatherInfo-${city}`
       );
       cardDetailSunsetLocationWeatherInfo.innerHTML = `<strong>${result.name}</strong>,<em> ${result.weather[0].main}</em> <br/> Temp ${result.main.temp}°`;
     })
     .catch(function (error) {
-      alert("Ooops something didn't work out - blame the weather!");
+      alert("Ooops something didn't work out - blame the weather API!");
     });
 }

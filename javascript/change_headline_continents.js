@@ -19,7 +19,9 @@ function changeheadline() {
         return response.json();
       })
       .then(function (result) {
+        cleanDetailList();
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -34,6 +36,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -48,6 +51,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -62,6 +66,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -76,6 +81,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -90,6 +96,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -104,6 +111,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -118,6 +126,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -132,6 +141,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
@@ -146,6 +156,7 @@ function changeheadline() {
       })
       .then(function (result) {
         fillList(result);
+        fillDetailLoadingAnimation();
       })
       .catch(function (error) {
         alert("Ooops something didn't work out - blame the weather!");
